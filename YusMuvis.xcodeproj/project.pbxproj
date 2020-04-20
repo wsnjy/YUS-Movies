@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD87DDD1244DCCDD007222E4 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD87DDD0244DCCDD007222E4 /* Detail.swift */; };
 		BDEDA2B8244BF40C002EADD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA2B7244BF40C002EADD8 /* AppDelegate.swift */; };
 		BDEDA2BA244BF40C002EADD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA2B9244BF40C002EADD8 /* SceneDelegate.swift */; };
 		BDEDA2BC244BF40C002EADD8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEDA2BB244BF40C002EADD8 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD87DDD0244DCCDD007222E4 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
 		BDEDA2B4244BF40C002EADD8 /* YusMuvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YusMuvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDEDA2B7244BF40C002EADD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDEDA2B9244BF40C002EADD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD87DDCF244DCC4C007222E4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				BD87DDD0244DCCDD007222E4 /* Detail.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		BDEDA2AB244BF40C002EADD8 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 				BDEDA2B9244BF40C002EADD8 /* SceneDelegate.swift */,
 				BDEDA2BB244BF40C002EADD8 /* ContentView.swift */,
 				BDEDA2CD244C3FD5002EADD8 /* Home */,
+				BD87DDCF244DCC4C007222E4 /* Detail */,
 				BDEDA2BD244BF40D002EADD8 /* Assets.xcassets */,
 				BDEDA2C2244BF40D002EADD8 /* LaunchScreen.storyboard */,
 				BDEDA2C5244BF40D002EADD8 /* Info.plist */,
@@ -162,6 +173,7 @@
 			files = (
 				BDEDA2B8244BF40C002EADD8 /* AppDelegate.swift in Sources */,
 				BDEDA2BA244BF40C002EADD8 /* SceneDelegate.swift in Sources */,
+				BD87DDD1244DCCDD007222E4 /* Detail.swift in Sources */,
 				BDEDA2CC244C3F63002EADD8 /* MovieCell.swift in Sources */,
 				BDEDA2CF244C42CF002EADD8 /* HomeViewModel.swift in Sources */,
 				BDEDA2BC244BF40C002EADD8 /* ContentView.swift in Sources */,
