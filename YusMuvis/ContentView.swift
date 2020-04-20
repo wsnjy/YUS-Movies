@@ -10,17 +10,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ScrollView(.vertical, showsIndicators: false) {
-            VStack(alignment: .leading){
-                HeaderTitle()
-                ScrollViewList()
-                UpcomingList()
-                MovieList()
+        ZStack {
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .leading){
+                    HeaderTitle()
+                    ScrollViewList()
+                    UpcomingList()
+                    MovieList()
+                    Spacer().frame(height: 44)
+                }
+            }
+            .padding()
+            VStack {
                 Spacer()
+                HStack(alignment: .center, spacing: 44) {
+                    Text("Home")
+                        .foregroundColor(.white)
+                    Text("Likes")
+                        .foregroundColor(.white)
+                    Text("Pin")
+                        .foregroundColor(.white)
+                    Text("Profile")
+                        .foregroundColor(.white)
+                }
+                .padding()
+                .background(Color(red: 207/255, green: 53/255, blue: 63/255))
+                .cornerRadius(22)
             }
         }
-        .padding()
-
     }
 }
 
